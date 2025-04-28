@@ -4,24 +4,24 @@ import { CarouselSize } from "./components/CarouselSize";
 
 const fruits = [
 	{
-		name: "Banane",
+		name: "pomme",
 		image: "/assets/banane.avif",
-		to: "",
 	},
 	{
-		name: "Ananas",
+		name: "ananas",
 		image: "/assets/ananas.avif",
-		to: "",
 	},
 	{
-		name: "Fraise",
+		name: "citron",
 		image: "/assets/fraise.avif",
-		to: "",
 	},
 	{
-		name: "Orange",
+		name: "orange",
 		image: "/assets/orange.avif",
-		to: "",
+	},
+	{
+		name: "mangue",
+		image: "/assets/orange.avif",
 	},
 ];
 
@@ -66,7 +66,7 @@ export function FruitView() {
 				<div className="w-7xl flex flex-wrap gap-16">
 					{fruits.map((fruit) => (
 						<NavLink
-							to={fruit.to}
+							to={`/fruits/${fruit.name}`}
 							key={fruit.name}
 							className="w-96 flex flex-col items-center gap-5"
 						>
@@ -74,7 +74,7 @@ export function FruitView() {
 								src={fruit.image}
 								alt={fruit.name}
 								loading="lazy"
-								className="w-32 object-cover rounded-lg shadow-lg"
+								className="w-32 object-cover rounded-lg"
 							/>
 							<h2 className="text-3xl font-bold uppercase mb-12">
 								{fruit.name}

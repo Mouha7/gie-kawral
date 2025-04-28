@@ -7,6 +7,7 @@ import { HomeView } from "./views/HomeView";
 import { JusView } from "./views/JusView";
 import { FruitView } from "./views/FruitView";
 import { NotFoundView } from "./views/NotFoundView";
+import { FruitDetailView } from "./views/FruitDetailView";
 
 export function Router() {
 	return (
@@ -20,7 +21,10 @@ export function Router() {
 				</Route>
 				<Route path="/produits" element={<ProduitView />} />
 				<Route path="/profile" element={<ClientView />} />
-				<Route path="/fruits" element={<FruitView />} />
+				<Route path="/fruits">
+					<Route index element={<FruitView />} />
+					<Route path=":type" element={<FruitDetailView />} />
+				</Route>
 				<Route path="*" element={<NotFoundView />} />
 			</Route>
 		</Routes>
