@@ -1,6 +1,6 @@
 export function Banner() {
 	return (
-		<div className="mx-[-16px] w-[calc(100%+32px)] flex justify-center text-center items-center gap-10 h-3/6 mt-7 dark:bg-bio-contraste/25 p-10">
+		<div className="mx-[-56px] w-[calc(100%+112px)] flex justify-center text-center items-center gap-10 h-3/6 mt-7 dark:bg-bio-contraste/25 p-10">
 			<div className="flex flex-col items-center gap-2">
 				<img
 					className="w-20 object-cover"
@@ -21,7 +21,7 @@ export function Banner() {
 				<h3 className="text-lg font-bold uppercase">
 					Paiements sécurisés
 				</h3>
-				<p>Orange Money / Wave / FreeMoney / Livraison</p>
+				<p>Orange Money / Wave / Free Money / Livraison</p>
 			</div>
 		</div>
 	);

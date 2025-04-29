@@ -40,7 +40,7 @@ export function JusView() {
 						<span className="font-bold">Trier par : </span>
 						<SelectTri />
 					</div>
-					<div className="flex-grow flex justify-between flex-wrap gap-5 p-2">
+					<div className="flex-grow flex justify-between flex-wrap gap-y-4 p-2">
 						<CardBox />
 						<CardBox />
 						<CardBox />
@@ -48,7 +48,7 @@ export function JusView() {
 					</div>
 				</div>
 			</div>
-			
+
 			<Banner />
 		</div>
 	);

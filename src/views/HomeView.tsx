@@ -83,7 +83,7 @@ export function HomeView() {
 					formes, à savourer en solo, en famille ou avec vos proches,
 					tout en respectant la nature et les producteurs locaux.
 				</p>
-				<div className="flex gap-10">
+				<div className="flex justify-between">
 					<Link to="">
 						<div className="flex relative items-center gap-5 p-5 w-80">
 							<img
