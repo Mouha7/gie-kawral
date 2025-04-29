@@ -1,7 +1,7 @@
 export function HistoireView() {
 	return (
 		<div className="flex flex-col w-full justify-center items-center">
-			<div className="mt-7 bg-cover bg-center bg-[url('/assets/bg-fruits.jpg')] bg-no-repeat h-[570px] w-7xl shadow-lg">
+			<div className="mt-4 bg-cover bg-center bg-[url('/assets/bg-fruits.jpg')] bg-no-repeat h-[570px] w-7xl shadow-lg">
 				<div className="flex flex-col justify-center items-center gap-5 h-full dark:bg-black/50 text-white p-5">
 					<h1 className="text-4xl font-black">
 						BioNature, une histoire enracinée dans la nature

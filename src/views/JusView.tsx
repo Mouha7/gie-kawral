@@ -7,7 +7,7 @@ import { Banner } from "./components/BannerCustom";
 export function JusView() {
 	return (
 		<div className="flex flex-col w-full">
-			<div className="mt-4 bg-[url('/assets/bg-fruits.jpg')] bg-cover bg-center bg-no-repeat h-96 w-full shadow-lg">
+			<div className="mt-4 bg-[url('/assets/bg-fruits.jpg')] bg-cover bg-center bg-no-repeat h-[570px] w-full shadow-lg">
 				<div className="flex flex-col justify-center gap-5 h-full dark:bg-black/50 text-white p-5">
 					<h1 className="text-5xl font-black">
 						Découvrez notre gamme de <br /> jus et boissons
