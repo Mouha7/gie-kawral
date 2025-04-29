@@ -30,7 +30,7 @@ export function Footer() {
 				</div>
 				<div className="flex-grow flex flex-col gap-2">
 					<h2 className="text-xl font-bold uppercase">Contact</h2>
-					<NavLink to="/notre-histoire" className="hover:underline">
+					<NavLink to="/contact" className="hover:underline">
 						Formulaire de Contact
 					</NavLink>
 					<p>Téléphone: (221) 77 000 00 00</p>

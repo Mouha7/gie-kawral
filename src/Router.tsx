@@ -10,6 +10,7 @@ import { FruitDetailView } from "./views/FruitDetailView";
 import { HistoireView } from "./views/HistoireView";
 import { MissionsView } from "./views/MissionsView";
 import { EngagementView } from "./views/EngagementView";
+import { ContactView } from "./views/ContactView";
 
 export function Router() {
 	return (
@@ -29,6 +30,7 @@ export function Router() {
 				<Route path="/notre-histoire" element={<HistoireView />} />
 				<Route path="/nos-missions" element={<MissionsView />} />
 				<Route path="/nos-engagements" element={<EngagementView />} />
+				<Route path="/contact" element={<ContactView />} />
 				<Route path="*" element={<NotFoundView />} />
 			</Route>
 		</Routes>
