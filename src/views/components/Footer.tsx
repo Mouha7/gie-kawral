@@ -21,10 +21,10 @@ export function Footer() {
 					<NavLink to="/notre-histoire" className="hover:underline">
 						Notre histoire
 					</NavLink>
-					<NavLink to="/notre-histoire" className="hover:underline">
+					<NavLink to="/nos-missions" className="hover:underline">
 						Nos missions
 					</NavLink>
-					<NavLink to="/notre-histoire" className="hover:underline">
+					<NavLink to="/nos-engagements" className="hover:underline">
 						Nos engagements
 					</NavLink>
 				</div>

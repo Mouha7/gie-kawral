@@ -9,3 +9,7 @@
   --image-fruits: url('/assets/bg-fruits.jpg');
   --font-roboto: "Roboto", sans-serif;
 }
+
+.fully-style {
+  @apply mx-[-56px] w-[calc(100%+112px)];
+}

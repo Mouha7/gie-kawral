@@ -28,7 +28,7 @@ const fruits = [
 export function FruitView() {
 	return (
 		<div className="flex flex-col w-full">
-			<div className="mx-[-56px] w-[calc(100%+112px)] bg-[url('/assets/bg-fruits.jpg')] bg-cover bg-center bg-no-repeat h-[570px] shadow-lg">
+			<div className="fully-style bg-[url('/assets/bg-fruits.jpg')] bg-cover bg-center bg-no-repeat h-[570px] shadow-lg">
 				<div className="flex flex-col justify-center items-center h-full dark:bg-black/50 text-white p-5">
 					<div className="w-2xl flex flex-col justify-center items-center gap-5">
 						<h1 className="text-4xl font-black uppercase text-center">

@@ -8,6 +8,8 @@ import { FruitView } from "./views/FruitView";
 import { NotFoundView } from "./views/NotFoundView";
 import { FruitDetailView } from "./views/FruitDetailView";
 import { HistoireView } from "./views/HistoireView";
+import { MissionsView } from "./views/MissionsView";
+import { EngagementView } from "./views/EngagementView";
 
 export function Router() {
 	return (
@@ -25,6 +27,8 @@ export function Router() {
 					<Route path=":type" element={<FruitDetailView />} />
 				</Route>
 				<Route path="/notre-histoire" element={<HistoireView />} />
+				<Route path="/nos-missions" element={<MissionsView />} />
+				<Route path="/nos-engagements" element={<EngagementView />} />
 				<Route path="*" element={<NotFoundView />} />
 			</Route>
 		</Routes>
