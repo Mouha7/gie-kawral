@@ -11,6 +11,10 @@ import { HistoireView } from "./views/HistoireView";
 import { MissionsView } from "./views/MissionsView";
 import { EngagementView } from "./views/EngagementView";
 import { ContactView } from "./views/ContactView";
+import { LoginView } from "./views/LoginView";
+import { RegisterView } from "./views/RegisterView";
+import { RecoveryView } from "./views/RecoveryView";
+import { CartView } from "./views/CartView";
 
 export function Router() {
 	return (
@@ -31,6 +35,10 @@ export function Router() {
 				<Route path="/nos-missions" element={<MissionsView />} />
 				<Route path="/nos-engagements" element={<EngagementView />} />
 				<Route path="/contact" element={<ContactView />} />
+				<Route path="/login" element={<LoginView />} />
+				<Route path="/panier" element={<CartView />} />
+				<Route path="/register" element={<RegisterView />} />
+				<Route path="/recovery" element={<RecoveryView />} />
 				<Route path="*" element={<NotFoundView />} />
 			</Route>
 		</Routes>

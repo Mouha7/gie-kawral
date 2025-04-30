@@ -32,20 +32,20 @@ export function ContactView() {
 				<Input type="email" placeholder="Email" />
 
 				<Select>
-					<SelectTrigger className="w-[180px]">
+					<SelectTrigger className="w-[180px] self-end">
 						<SelectValue placeholder="Objet du message" />
 					</SelectTrigger>
-					<SelectContent>
+					<SelectContent className="dark:bg-bio-contraste dark:text-bio">
 						<SelectGroup>
 							<SelectLabel>Objet du message</SelectLabel>
-							<SelectItem value="compliment">Compliments</SelectItem>
-							<SelectItem value="information">
+							<SelectItem className="dark:bg-bio-contraste/25 cursor-pointer" value="compliment">Compliments</SelectItem>
+							<SelectItem className="hover:bg-bio-contraste/25 cursor-pointer" value="information">
 								Information produit
 							</SelectItem>
-							<SelectItem value="produit">
+							<SelectItem className="hover:bg-bio-contraste/25 cursor-pointer" value="produit">
 								Commentaire produit
 							</SelectItem>
-							<SelectItem value="partenariat">
+							<SelectItem className="hover:bg-bio-contraste/25 cursor-pointer" value="partenariat">
 								Sponsoring & partenariat
 							</SelectItem>
 						</SelectGroup>
