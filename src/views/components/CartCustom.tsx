@@ -18,17 +18,17 @@ export function Cart() {
 			<SheetTrigger asChild>
 				<FaCartShopping />
 			</SheetTrigger>
-			<SheetContent className="dark:bg-bio dark:text-bio-contraste p-6 border-b-2">
-				<SheetHeader className="border-b-1 border-bio-contraste/15">
+			<SheetContent className="dark:bg-bio dark:text-bio-contraste p-6">
+				<SheetHeader className="border-bottom">
 					<SheetTitle>Votre panier(nbr d'items)</SheetTitle>
 				</SheetHeader>
 
-				<div className="h-full overflow-auto">
+				<div className="h-full overflow-auto border-bottom">
 					<CardCart />
 					<CardCart />
 				</div>
 
-				<SheetFooter className="border-t-1 border-bio-contraste/15">
+				<SheetFooter>
 					<div className="flex justify-between items-center">
 						<h3 className="font-bold">Sous-total</h3>
 						<p>800 FCFA</p>

@@ -13,3 +13,7 @@
 .fully-style {
   @apply mx-[-56px] w-[calc(100%+112px)];
 }
+
+.border-bottom {
+  @apply border-b-1 border-bio-contraste/15;
+}
