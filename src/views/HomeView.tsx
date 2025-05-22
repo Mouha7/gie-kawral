@@ -97,8 +97,8 @@ export function HomeView() {
 								<Link to="">
 									<div className="flex relative items-center gap-5 p-5 w-80">
 										<img
-											className="object-cover rounded-[8px]"
-											src="/assets/Orange.png"
+											className="object-cover h-[500px] rounded-[8px]"
+											src="/assets/jus.jpg"
 											alt="Orange Juice"
 										/>
 										<span className="absolute top-5 left-1/2 rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 w-fit bg-black/50 text-white text-center py-2 px-4 uppercase">
@@ -118,9 +118,9 @@ export function HomeView() {
 								<Link to="">
 									<div className="flex relative items-center gap-5 p-5 w-80">
 										<img
-											className="object-cover rounded-[8px]"
-											src="/assets/Orange.png"
-											alt="Orange Juice"
+											className="object-cover h-[500px] rounded-[8px]"
+											src="/assets/conf.jpg"
+											alt="Confiture"
 										/>
 										<span className="absolute top-5 left-1/2 rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 w-fit bg-black/50 text-white text-center py-2 px-4 uppercase">
 											Confiture
@@ -139,8 +139,8 @@ export function HomeView() {
 								<Link to="">
 									<div className="flex relative items-center gap-5 p-5 w-80">
 										<img
-											className="object-cover rounded-[8px]"
-											src="/assets/Orange.png"
+											className="object-cover h-[500px] rounded-[8px]"
+											src="/assets/cereal.jpg"
 											alt="Orange Juice"
 										/>
 										<span className="absolute top-5 left-1/2 rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 w-fit bg-black/50 text-white text-center py-2 px-4 uppercase">

@@ -19,7 +19,7 @@ export function CardBox() {
 			>
 				<img
 					className="object-cover w-full"
-					src="/assets/Orange.png"
+					src="/assets/jus.jpg"
 					alt="product image"
 				/>
 				<span className="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">

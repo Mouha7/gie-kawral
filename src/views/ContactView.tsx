@@ -35,29 +35,29 @@ export function ContactView() {
 					<SelectTrigger className="w-[180px] self-end">
 						<SelectValue placeholder="Objet du message" />
 					</SelectTrigger>
-					<SelectContent className="dark:bg-bio-contraste dark:text-bio">
+					<SelectContent className="dark:bg-kawral-red dark:text-bio">
 						<SelectGroup>
 							<SelectLabel>Objet du message</SelectLabel>
 							<SelectItem
-								className="dark:bg-bio-contraste/25 cursor-pointer"
+								className="dark:bg-kawral-red/25 cursor-pointer"
 								value="compliment"
 							>
 								Compliments
 							</SelectItem>
 							<SelectItem
-								className="hover:bg-bio-contraste/25 cursor-pointer"
+								className="hover:bg-kawral-red/25 cursor-pointer"
 								value="information"
 							>
 								Information produit
 							</SelectItem>
 							<SelectItem
-								className="hover:bg-bio-contraste/25 cursor-pointer"
+								className="hover:bg-kawral-red/25 cursor-pointer"
 								value="produit"
 							>
 								Commentaire produit
 							</SelectItem>
 							<SelectItem
-								className="hover:bg-bio-contraste/25 cursor-pointer"
+								className="hover:bg-kawral-red/25 cursor-pointer"
 								value="partenariat"
 							>
 								Sponsoring & partenariat
@@ -69,7 +69,7 @@ export function ContactView() {
 					placeholder="Tell us a little bit about yourself"
 					className="resize-none"
 				/>
-				<button className="dark:bg-bio-contraste text-bio font-bold py-2 px-4 hover:bg-bio-contraste/50 cursor-pointer">
+				<button className="dark:bg-kawral-red text-bio font-bold py-2 px-4 hover:bg-kawral-red/50 cursor-pointer">
 					Envoyer
 				</button>
 			</form>

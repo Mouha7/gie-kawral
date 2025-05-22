@@ -7,6 +7,48 @@ import {
 	CarouselPrevious,
 } from "@/components/ui/carousel";
 
+const testimonials = [
+	{
+		id: 1,
+		name: "Fatou D.",
+		location: "Dakar",
+		testimonial:
+			"Les jus naturels de GIE Kawral sont extraordinaires. Le bissap a exactement le goût de mon enfance, sans additifs ni sucre artificiel. Impossible de revenir aux jus industriels après avoir goûté l'authenticité de leurs produits. Ma commande mensuelle est devenue un rituel familial incontournable.",
+		date: "2025-05-15",
+		rating: 5,
+		imagePath: "/images/testimonials/fatou.jpg",
+	},
+	{
+		id: 2,
+		name: "Dr. Amadou N.",
+		location: "Thiès",
+		testimonial:
+			"Depuis que j'ai découvert les farines de mil enrichies de GIE Kawral, mes petits-déjeuners ont changé du tout au tout. Qualité nutritionnelle exceptionnelle et saveur incomparable. En tant que nutritionniste, je recommande leurs produits à tous mes patients cherchant à revenir aux sources.",
+		date: "2025-05-10",
+		rating: 5,
+		imagePath: "/images/testimonials/amadou.jpg",
+	},
+	{
+		id: 3,
+		name: "Mariama S.",
+		location: "Marseille",
+		testimonial:
+			"Vivant à Marseille, je pensais devoir me passer des vraies saveurs du Sénégal. GIE Kawral a changé ça! Leur service de livraison international est impeccable et les confitures arrivent parfaitement conservées. La confiture de mangue me reconnecte instantanément avec mon pays natal.",
+		date: "2025-05-18",
+		rating: 4,
+		imagePath: "/images/testimonials/mariama.jpg",
+	},
+	{
+		id: 4,
+		name: "Chef Omar L.",
+		location: "Saint-Louis",
+		testimonial:
+			"En tant que chef, la qualité des ingrédients est ma priorité absolue. Les produits GIE Kawral apportent cette touche d'authenticité qui fait la différence dans mes créations. Mes clients adorent l'histoire derrière chaque produit que je leur raconte en servant.",
+		date: "2025-05-20",
+		rating: 5,
+		imagePath: "/images/testimonials/omar.jpg",
+	},
+];
 export function CarouselSize({ imgSrc }: { readonly imgSrc: string }) {
 	return (
 		<Carousel
@@ -16,7 +58,7 @@ export function CarouselSize({ imgSrc }: { readonly imgSrc: string }) {
 			className="w-full mx-20"
 		>
 			<CarouselContent>
-				{Array.from({ length: 4 }).map((_, index) => (
+				{Array.from({ length: testimonials.length }).map((_, index) => (
 					<CarouselItem
 						key={index}
 						className="md:basis-1/2 lg:basis-1/3"
@@ -36,11 +78,7 @@ export function CarouselSize({ imgSrc }: { readonly imgSrc: string }) {
 								</svg>
 								<blockquote>
 									<p className="text-2xl font-medium text-gray-900">
-										"Flowbite is just awesome. It contains
-										tons of predesigned components and pages
-										starting from login screen to complex
-										dashboard. Perfect choice for your next
-										SaaS application."
+										{testimonials[index].testimonial}
 									</p>
 								</blockquote>
 								<figcaption className="flex items-center justify-center mt-6 space-x-3">
@@ -51,10 +89,10 @@ export function CarouselSize({ imgSrc }: { readonly imgSrc: string }) {
 									/>
 									<div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
 										<div className="pr-3 font-medium text-gray-900">
-											Fatou Fall
+											{testimonials[index].name}
 										</div>
 										<div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-											Ménagère
+											{testimonials[index].location}
 										</div>
 									</div>
 								</figcaption>
