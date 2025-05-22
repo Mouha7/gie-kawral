@@ -12,19 +12,19 @@ export function Footer() {
 					<img
 						className="w-24 object-contain h-auto"
 						loading="lazy"
-						src="/assets/logo.png"
+						src="/assets/logo-kawral.png"
 						alt="Logo Entreprise"
 					/>
 				</Link>
 				<div className="flex-grow flex flex-col gap-2">
-					<h2 className="text-xl font-bold uppercase">BioNature</h2>
+					<h2 className="text-xl font-bold uppercase">Gie Kawral</h2>
 					<NavLink to="/notre-histoire" className="hover:underline">
 						Notre histoire
 					</NavLink>
-					<NavLink to="/nos-missions" className="hover:underline">
+					<NavLink to="" className="hover:underline">
 						Nos missions
 					</NavLink>
-					<NavLink to="/nos-engagements" className="hover:underline">
+					<NavLink to="" className="hover:underline">
 						Nos engagements
 					</NavLink>
 				</div>
@@ -33,12 +33,22 @@ export function Footer() {
 					<NavLink to="/contact" className="hover:underline">
 						Formulaire de Contact
 					</NavLink>
-					<p>Téléphone: (221) 77 000 00 00</p>
-					<p>Email: bionature@gmail.com</p>
+					<p>Téléphone: (+221) 77 555 31 61</p>
+					<p>Email: gie_kawral@yahoo.fr</p>
 					<div className="flex gap-2 items-center">
-						<SlSocialFacebook className="text-xl" />
+						<NavLink
+							target="_blank"
+							to="https://www.facebook.com/mbourecoumba"
+						>
+							<SlSocialFacebook className="text-xl" />
+						</NavLink>
+						<NavLink
+							target="_blank"
+							to="https://www.instagram.com/gie_kawral?igsh=MTBseDlvMTBpNno4ZQ=="
+						>
+							<BsInstagram className="text-xl" />
+						</NavLink>
 						<PiTiktokLogo className="text-xl" />
-						<BsInstagram className="text-xl" />
 					</div>
 				</div>
 				<div className="flex-grow flex flex-col gap-2">
@@ -78,7 +88,7 @@ export function Footer() {
 				</div>
 			</div>
 			<p className="text-center py-2.5 text-sm">
-				&copy; {new Date().getFullYear()} Bio. Tous droits réservés.
+				&copy; {new Date().getFullYear()} Gie Kawral. Tous droits réservés.
 				Réalisation:{" "}
 				<NavLink to="" className="hover:underline">
 					SMRS

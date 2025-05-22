@@ -6,6 +6,9 @@
 @theme {
   --color-bio: #fefae0;
   --color-bio-contraste: #543515;
+  --color-kawral-green: #255f14;
+  --color-kawral-red: #a03a13;
+  --color-kawral-yellow: #ed9907;
   --image-fruits: url('/assets/bg-fruits.jpg');
   --font-roboto: "Roboto", sans-serif;
 }
@@ -16,4 +19,9 @@
 
 .border-bottom {
   @apply border-b-1 border-bio-contraste/15;
+}
+
+/* Masquer l'icône uniquement dans l'accordéon du panier */
+.cart-details-accordion [data-slot="accordion-trigger"] > svg {
+  display: none;
 }

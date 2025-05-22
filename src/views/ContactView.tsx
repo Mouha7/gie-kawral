@@ -16,9 +16,9 @@ export function ContactView() {
 			<h1 className="text-3xl font-bold mb-4">Contactez-nous</h1>
 			<p className="">Nous sommes là pour vous aider !</p>
 			<p className="mb-4">
-				Vous pouvez nous contacter sur le site ou par téléphone au 000
-				00 00, du lundi au vendredi de 8h à 16h, hors week-end et jours
-				fériés.
+				Vous pouvez nous contacter sur le site (Mbour) ou par téléphone au 77
+				555 31 61, du lundi au vendredi de 8h à 16h, hors week-end et
+				jours fériés.
 			</p>
 			<form className="flex flex-col gap-4 w-1/2">
 				<div className="flex gap-4">
@@ -38,14 +38,28 @@ export function ContactView() {
 					<SelectContent className="dark:bg-bio-contraste dark:text-bio">
 						<SelectGroup>
 							<SelectLabel>Objet du message</SelectLabel>
-							<SelectItem className="dark:bg-bio-contraste/25 cursor-pointer" value="compliment">Compliments</SelectItem>
-							<SelectItem className="hover:bg-bio-contraste/25 cursor-pointer" value="information">
+							<SelectItem
+								className="dark:bg-bio-contraste/25 cursor-pointer"
+								value="compliment"
+							>
+								Compliments
+							</SelectItem>
+							<SelectItem
+								className="hover:bg-bio-contraste/25 cursor-pointer"
+								value="information"
+							>
 								Information produit
 							</SelectItem>
-							<SelectItem className="hover:bg-bio-contraste/25 cursor-pointer" value="produit">
+							<SelectItem
+								className="hover:bg-bio-contraste/25 cursor-pointer"
+								value="produit"
+							>
 								Commentaire produit
 							</SelectItem>
-							<SelectItem className="hover:bg-bio-contraste/25 cursor-pointer" value="partenariat">
+							<SelectItem
+								className="hover:bg-bio-contraste/25 cursor-pointer"
+								value="partenariat"
+							>
 								Sponsoring & partenariat
 							</SelectItem>
 						</SelectGroup>

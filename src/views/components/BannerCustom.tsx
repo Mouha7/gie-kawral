@@ -4,7 +4,7 @@ export function Banner() {
 			<div className="flex flex-col items-center gap-2">
 				<img
 					className="w-20 object-cover"
-					src="/assets/logo.png"
+					src="/assets/logo-kawral.png"
 					alt="Logo de livraison"
 				/>
 				<h3 className="text-lg font-bold uppercase">
@@ -15,13 +15,13 @@ export function Banner() {
 			<div className="flex flex-col items-center gap-2">
 				<img
 					className="w-20 object-cover"
-					src="/assets/logo.png"
+					src="/assets/logo-kawral.png"
 					alt="Logo de sécu"
 				/>
 				<h3 className="text-lg font-bold uppercase">
 					Paiements sécurisés
 				</h3>
-				<p>Orange Money / Wave / Free Money / Livraison</p>
+				<p>Orange Money / Wave / Livraison</p>
 			</div>
 		</div>
 	);

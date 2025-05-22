@@ -15,6 +15,7 @@ import { LoginView } from "./views/LoginView";
 import { RegisterView } from "./views/RegisterView";
 import { RecoveryView } from "./views/RecoveryView";
 import { CartView } from "./views/CartView";
+import { SingleProduct } from "./views/SingleProduct";
 
 export function Router() {
 	return (
@@ -24,6 +25,7 @@ export function Router() {
 				<Route path="/catalogue">
 					<Route index element={<CatalogueView />} />
 					<Route path="gamme-jus" element={<JusView />} />
+					<Route path="produit" element={<SingleProduct />} />
 					{/* <Route path="produit/:id" element={<ProduitView />} /> */}
 				</Route>
 				<Route path="/profile" element={<ClientView />} />
